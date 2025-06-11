@@ -1,0 +1,37 @@
+[0.678s] Invoking command in '/home/hu/ros2_ws/wit_imu_ros2/src/wit_ros2_imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hu/ros2_ws/wit_imu_ros2/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hu/ros2_ws/wit_imu_ros2/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wit_ros2_imu build --build-base /home/hu/ros2_ws/wit_imu_ros2/build/wit_ros2_imu/build install --record /home/hu/ros2_ws/wit_imu_ros2/build/wit_ros2_imu/install.log --install-scripts $base/lib/wit_ros2_imu --single-version-externally-managed install_data
+[0.779s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.779s] !!
+[0.779s] 
+[0.779s]         ********************************************************************************
+[0.779s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.779s]         versions. Please use the underscore name 'script_dir' instead.
+[0.779s] 
+[0.779s]         This deprecation is overdue, please update your project and remove deprecated
+[0.779s]         calls to avoid build errors in the future.
+[0.779s] 
+[0.780s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.780s]         ********************************************************************************
+[0.780s] 
+[0.780s] !!
+[0.780s]   opt = self.warn_dash_deprecation(opt, section)
+[0.903s] running egg_info
+[0.921s] writing ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/PKG-INFO
+[0.921s] writing dependency_links to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/dependency_links.txt
+[0.921s] writing entry points to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/entry_points.txt
+[0.922s] writing requirements to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/requires.txt
+[0.922s] writing top-level names to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/top_level.txt
+[0.957s] reading manifest file '../../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'
+[0.958s] running build
+[0.958s] running build_py
+[0.958s] running install
+[0.963s] running install_lib
+[0.981s] running install_data
+[0.981s] copying launch/rviz_and_imu.launch.py -> /home/hu/ros2_ws/wit_imu_ros2/install/wit_ros2_imu/share/wit_ros2_imu
+[0.981s] running install_egg_info
+[0.998s] removing '/home/hu/ros2_ws/wit_imu_ros2/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu-0.0.0-py3.12.egg-info' (and everything under it)
+[0.999s] Copying ../../build/wit_ros2_imu/wit_ros2_imu.egg-info to /home/hu/ros2_ws/wit_imu_ros2/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu-0.0.0-py3.12.egg-info
+[1.000s] running install_scripts
+[1.116s] Installing wit_ros2_imu script to /home/hu/ros2_ws/wit_imu_ros2/install/wit_ros2_imu/lib/wit_ros2_imu
+[1.116s] writing list of installed files to '/home/hu/ros2_ws/wit_imu_ros2/build/wit_ros2_imu/install.log'
+[1.138s] Invoked command in '/home/hu/ros2_ws/wit_imu_ros2/src/wit_ros2_imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hu/ros2_ws/wit_imu_ros2/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hu/ros2_ws/wit_imu_ros2/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wit_ros2_imu build --build-base /home/hu/ros2_ws/wit_imu_ros2/build/wit_ros2_imu/build install --record /home/hu/ros2_ws/wit_imu_ros2/build/wit_ros2_imu/install.log --install-scripts $base/lib/wit_ros2_imu --single-version-externally-managed install_data
